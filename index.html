@@ -46,6 +46,10 @@
 				<li class="nav-item"><a href="#projects" class="nav-link">Portfolio</a></li>
 				<li class="nav-item"><a href="#contact" class="nav-link btn-contact">Contact Me</a></li>
 			</ul>
+
+			<button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+				<i class="fas fa-moon"></i>
+			</button>
 		</div>
 	</nav>
 
@@ -120,7 +124,7 @@
 						borderless transactions.
 					</p>
 
-					<div class="info-grid"> 
+					<div class="info-grid">
 						<div class="info-item">
 							<span class="label">From:</span>
 							<span class="value">Kaduna, Nigeria</span>
@@ -415,6 +419,32 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Chat Widget -->
+	<div class="chat-widget">
+		<button id="chat-toggle" class="chat-toggle">
+			<i class="fas fa-comment-dots"></i>
+		</button>
+
+		<div class="chat-window" id="chat-window">
+			<div class="chat-header">
+				<div class="chat-title">
+					<i class="fas fa-robot"></i>
+					<span>AI Assistant</span>
+				</div>
+				<button id="chat-close" class="chat-close"><i class="fas fa-times"></i></button>
+			</div>
+			<div class="chat-messages" id="chat-messages">
+				<div class="message ai-message">
+					Hi there! I'm Ucee's AI assistant. How can I help you today?
+				</div>
+			</div>
+			<form class="chat-input-area" id="chat-form">
+				<input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+				<button type="submit"><i class="fas fa-paper-plane"></i></button>
+			</form>
+		</div>
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
